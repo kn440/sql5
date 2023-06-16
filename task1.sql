@@ -1,0 +1,7 @@
+CREATE VIEW CarsUnder25000 AS
+SELECT *
+FROM Cars
+WHERE Cost <= 25000;
+
+SELECT *
+FROM CarsUnder25000;
